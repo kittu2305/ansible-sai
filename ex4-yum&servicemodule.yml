@@ -1,5 +1,5 @@
 -
- name: pb on yum and service examole
+ name: pb on yum and service example
  hosts: client1
  tasks:
   - name: code to install httpd application
@@ -8,6 +8,6 @@
      state: present
 
   - name: code to start httpd services
-    sevices:
+    sevice:
      name: httpd
      state: started
